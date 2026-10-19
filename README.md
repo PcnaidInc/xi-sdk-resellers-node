@@ -387,6 +387,13 @@ Authentication schemes defined for the API:
 ## Author
 -[Ingram Micro Xvantage](https://github.com/ingrammicro-xvantage)
 
+## CI
+
+A CI workflow runs on every pull request and push to `main` via GitHub Actions (`.github/workflows/ci.yml`). It checks:
+
+- **Build** — `npm run build` (Babel compilation)
+- **Test** — `npm test` (Mocha test suite)
+
 ## Contact
 
 For any inquiries or support, please feel free to contact us at:
